@@ -1,0 +1,41 @@
+# Security - API Keys & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv
+env/
+venv/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project specific
+dist/
+build/
+coverage/
+.gemini/
+
+# Large Files (Excluded from Git)
+backend/ml/checkpoints/*.pth

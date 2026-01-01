@@ -1,0 +1,8 @@
+src/components/TrainingSimulation.tsx(2,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/UploadSection.tsx(62,26): error TS2322: Type '{ children: Element[]; className: string; refKey?: string | undefined; defaultChecked?: boolean | undefined; defaultValue?: string | number | readonly string[] | undefined; suppressContentEditableWarning?: boolean | undefined; ... 262 more ...; exit: { ...; }; }' is not assignable to type 'Omit<HTMLMotionProps<"div">, "ref">'.
+  Types of property 'onAnimationStart' are incompatible.
+    Type 'AnimationEventHandler<HTMLElement> | undefined' is not assignable to type '((definition: AnimationDefinition) => void) | undefined'.
+      Type 'AnimationEventHandler<HTMLElement>' is not assignable to type '(definition: AnimationDefinition) => void'.
+        Types of parameters 'event' and 'definition' are incompatible.
+          Type 'AnimationDefinition' is not assignable to type 'AnimationEvent<HTMLElement>'.
+            Type 'string' is not assignable to type 'AnimationEvent<HTMLElement>'.
